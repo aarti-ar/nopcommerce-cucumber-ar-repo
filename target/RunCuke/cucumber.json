@@ -1,0 +1,482 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10932815000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify user should navigate to computer page successfully",
+        "description": "",
+        "id": "computer-page;verify-user-should-navigate-to-computer-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1124251800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1255202700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on computer tab",
+            "match": {
+              "location": "HomePageSteps.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234102500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigated computer page successfully",
+            "match": {
+              "location": "ComputerPageSteps.iNavigatedComputerPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Page",
+    "description": "",
+    "id": "computer-page",
+    "keyword": "Feature",
+    "uri": "computerpage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4234517800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "nopcommerce-login;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 819064200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1459138100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79927500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to login page successfully",
+            "match": {
+              "location": "LoginPageSteps.iNavigateToLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4982218400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verify The Error Message With InValid Credentials",
+        "description": "",
+        "id": "nopcommerce-login;verify-the-error-message-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 778922800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1502538600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231094200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter email id \"prime123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prime123@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageSteps.iEnterEmailId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216114800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1263424200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click login",
+            "match": {
+              "location": "LoginPageSteps.iClickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62833500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I can see error message",
+            "match": {
+              "location": "LoginPageSteps.iCanSeeErrorMessage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "NopCommerce Login",
+    "description": "As a user I should login in nopcommerce website",
+    "id": "nopcommerce-login",
+    "keyword": "Feature",
+    "uri": "loginpage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4186120700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "verify user should navigate to register page successfully",
+        "description": "",
+        "id": "register-page-functionality;verify-user-should-navigate-to-register-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 871568000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1543536800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on register link",
+            "match": {
+              "location": "HomePageSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66802000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigated to register page",
+            "match": {
+              "location": "RegisterPageSteps.iNavigatedToRegisterPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4457986600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify that firstname lastname email password confirm password are required",
+        "description": "",
+        "id": "register-page-functionality;verify-that-firstname-lastname-email-password-confirm-password-are-required",
+        "after": [
+          {
+            "result": {
+              "duration": 1109571200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1559989700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on register link",
+            "match": {
+              "location": "HomePageSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290192600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegisterPageSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97408400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I got an error First name is required",
+            "match": {
+              "location": "RegisterPageSteps.iGotAnErrorFirstNameIsRequired()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78853900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I got an error Last name is required",
+            "match": {
+              "location": "RegisterPageSteps.iGotAnErrorLastNameIsRequired()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73869900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I got an error email is required",
+            "match": {
+              "location": "RegisterPageSteps.iGotAnErrorEmailIsRequired()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93949600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I got an error password is required",
+            "match": {
+              "location": "RegisterPageSteps.iGotAnErrorPasswordIsRequired()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72584500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I got an error confirm password is required",
+            "match": {
+              "location": "RegisterPageSteps.iGotAnErrorConfirmPasswordIsRequired()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          },
+          {
+            "line": 10,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Register Page Functionality",
+    "description": "",
+    "id": "register-page-functionality",
+    "keyword": "Feature",
+    "uri": "registerpage.feature"
+  }
+]
